@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:background="#00b90d">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/manager_entry_form_title"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/manager_entry_form_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingBottom="10dp"
+                android:paddingLeft="11.33dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:src="@drawable/back" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="37.66dp"
+            android:background="#F6F1A3"
+            android:gravity="center_vertical"
+            android:paddingLeft="13.33dp"
+            android:text="@string/manager_entry_form_content"
+            android:textColor="#a43535"
+            android:textSize="13.33sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.33dp"
+            android:background="#e6d49f" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13.33dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/manager_entry_form_name"
+            android:textColor="#646464"
+            android:textSize="15.33sp" />
+
+        <EditText
+            android:id="@+id/apply_name"
+            android:layout_width="match_parent"
+            android:layout_height="45.33dp"
+            android:layout_marginLeft="13.33dp"
+            android:layout_marginRight="13.33dp"
+            android:layout_marginTop="6.66dp"
+            android:background="@drawable/blank_arc_bg"
+            android:gravity="center_vertical"
+            android:hint="@string/manager_entry_form_name_ask"
+            android:paddingLeft="15.33dp"
+            android:textColor="#323232"
+            android:textColorHint="#dadada"
+            android:textSize="16.66sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13.33dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/manager_entry_form_qq"
+            android:textColor="#646464"
+            android:textSize="15.33sp" />
+
+        <EditText
+            android:id="@+id/qq_num"
+            android:layout_width="match_parent"
+            android:layout_height="45.33dp"
+            android:layout_marginLeft="13.33dp"
+            android:layout_marginRight="13.33dp"
+            android:layout_marginTop="6.66dp"
+            android:background="@drawable/blank_arc_bg"
+            android:gravity="center_vertical"
+            android:hint="@string/manager_entry_form_qq_ask"
+            android:paddingLeft="15.33dp"
+            android:textColor="#323232"
+            android:textColorHint="#dadada"
+            android:textSize="16.66sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13.33dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/manager_entry_form_introduction"
+            android:textColor="#646464"
+            android:textSize="15.33sp" />
+
+
+        <EditText
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="167.66dp"
+            android:layout_marginLeft="13.33dp"
+            android:layout_marginRight="13.33dp"
+            android:layout_marginTop="6.66dp"
+            android:background="@drawable/blank_arc_bg"
+            android:gravity="top"
+            android:hint="@string/manager_entry_form_introduction_ask"
+            android:paddingLeft="15.33dp"
+            android:paddingRight="15.33dp"
+            android:paddingTop="15.33dp"
+            android:textColor="#323232"
+            android:textColorHint="#dadada"
+            android:textSize="16.66sp" />
+
+        <TextView
+            android:id="@+id/next"
+            android:layout_width="match_parent"
+            android:layout_height="50.66dp"
+            android:layout_marginLeft="13.33dp"
+            android:layout_marginRight="13.33dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/green_arc_bg"
+            android:gravity="center"
+            android:text="@string/manager_entry_form_next"
+            android:textColor="#ffffff"
+            android:textSize="16.66sp" />
+    </LinearLayout>
+</ScrollView>

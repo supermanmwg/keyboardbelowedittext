@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">EditTextHelp</string>
+    <string name="action_settings">Settings</string>
+    <string name="mass_election">管理员海选中</string>
+    <string name="manager_entry_form_title">填写个人资料</string>
+    <string name="manager_entry_form_content">英雄有出处，装B要适度。你要是人才，谁也拦不住。</string>
+    <string name="manager_entry_form_name">姓名</string>
+    <string name="manager_entry_form_qq">QQ号</string>
+    <string name="manager_entry_form_introduction">介绍下自己</string>
+    <string name="manager_entry_form_name_ask">阁下尊姓大名?</string>
+    <string name="manager_entry_form_qq_ask">你这么牛B敢留下qq吗？</string>
+    <string name="manager_entry_form_introduction_ask">描述一下你的装B经历(不少于30字)</string>
+    <string name="manager_entry_form_next">下一步</string>
+    <string name="manager_theme_form_title">填写主题资料</string>
+    <string name="manager_theme_form_content">靠什么主题来装B,说出来听听，不靠谱不给过哦～</string>
+</resources>
